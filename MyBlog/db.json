@@ -1,0 +1,1083 @@
+[
+    {
+       "model":"contenttypes.contenttype",
+       "pk":1,
+       "fields":{
+          "app_label":"admin",
+          "model":"logentry"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":2,
+       "fields":{
+          "app_label":"auth",
+          "model":"permission"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":3,
+       "fields":{
+          "app_label":"auth",
+          "model":"group"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":4,
+       "fields":{
+          "app_label":"auth",
+          "model":"user"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":5,
+       "fields":{
+          "app_label":"contenttypes",
+          "model":"contenttype"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":6,
+       "fields":{
+          "app_label":"sessions",
+          "model":"session"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":7,
+       "fields":{
+          "app_label":"my_blog",
+          "model":"imagens_for_post"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":8,
+       "fields":{
+          "app_label":"my_blog",
+          "model":"post"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":9,
+       "fields":{
+          "app_label":"my_blog",
+          "model":"author"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":10,
+       "fields":{
+          "app_label":"my_blog",
+          "model":"category"
+       }
+    },
+    {
+       "model":"contenttypes.contenttype",
+       "pk":11,
+       "fields":{
+          "app_label":"my_blog",
+          "model":"postquote"
+       }
+    },
+    {
+       "model":"sessions.session",
+       "pk":"8ccv4sruxlvht3wnwd1m0xm0ortf6f2k",
+       "fields":{
+          "session_data":"ZDEzNzE4NTQ1NWY0NzdhYTkxNTg2YjRhYzhlY2YwYTE4ODkzMjJhMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMzU0YTJjZmRjOWU5OTM0MGQ5NTY3YzVmMzAwNjA0ODE4M2RhOTdlIn0=",
+          "expire_date":"2020-05-05T23:46:37.929Z"
+       }
+    },
+    {
+       "model":"my_blog.author",
+       "pk":1,
+       "fields":{
+          "first_Name":"Lucas",
+          "last_Name":"de Oliveira Santana",
+          "description":"",
+          "contact_Site":null,
+          "contact_Facebook":null,
+          "contact_Twiter":null,
+          "contact_Instagram":null,
+          "contact_GitHub":null,
+          "contact_Linkedin":null,
+          "photo":"buracoNegro.gif"
+       }
+    },
+    {
+       "model":"my_blog.category",
+       "pk":1,
+       "fields":{
+          "name":"Python"
+       }
+    },
+    {
+       "model":"my_blog.imagens_for_post",
+       "pk":3,
+       "fields":{
+          "image":"RoadMap_Datascience.png",
+          "position":1,
+          "imagetitle":"1"
+       }
+    },
+    {
+       "model":"my_blog.post",
+       "pk":4,
+       "fields":{
+          "type_of_post":"simplePost",
+          "title":"Gerador de LeroLero",
+          "date_of_publication":"2020-04-22T21:56:26.826Z",
+          "modified_in":"2020-04-22T22:37:10.346Z",
+          "label":"gerador-de-lerolero",
+          "summary_post":"Assim mesmo, o aumento do di\u00e1logo entre os diferentes setores produtivos exige a precis\u00e3o e a defini\u00e7\u00e3o das diversas correntes de pensamento. O incentivo ao avan\u00e7o tecnol\u00f3gico, assim como a determina\u00e7\u00e3o clara de objetivos nos obriga \u00e0 an\u00e1lise do fluxo de informa\u00e7\u00f5es. O empenho em analisar o desafiador cen\u00e1rio globalizado talvez venha a ressaltar a relatividade dos conhecimentos estrat\u00e9gicos para atingir a excel\u00eancia. Do mesmo modo, o consenso sobre a necessidade de qualifica\u00e7\u00e3o deve passar por modifica\u00e7\u00f5es independentemente do or\u00e7amento setorial.",
+          "text_html":"Assim mesmo, o aumento do di\u00e1logo entre os diferentes setores produtivos exige a precis\u00e3o e a defini\u00e7\u00e3o das diversas correntes de pensamento. O incentivo ao avan\u00e7o tecnol\u00f3gico, assim como a determina\u00e7\u00e3o clara de objetivos nos obriga \u00e0 an\u00e1lise do fluxo de informa\u00e7\u00f5es. O empenho em analisar o desafiador cen\u00e1rio globalizado talvez venha a ressaltar a relatividade dos conhecimentos estrat\u00e9gicos para atingir a excel\u00eancia. Do mesmo modo, o consenso sobre a necessidade de qualifica\u00e7\u00e3o deve passar por modifica\u00e7\u00f5es independentemente do or\u00e7amento setorial.\r\n\r\n          No mundo atual, a consulta aos diversos militantes n\u00e3o pode mais se dissociar do processo de comunica\u00e7\u00e3o como um todo. Todas estas quest\u00f5es, devidamente ponderadas, levantam d\u00favidas sobre se a competitividade nas transa\u00e7\u00f5es comerciais faz parte de um processo de gerenciamento do levantamento das vari\u00e1veis envolvidas. Por conseguinte, o acompanhamento das prefer\u00eancias de consumo desafia a capacidade de equaliza\u00e7\u00e3o do sistema de participa\u00e7\u00e3o geral.\r\n\r\n          No entanto, n\u00e3o podemos esquecer que o surgimento do com\u00e9rcio virtual estende o alcance e a import\u00e2ncia das condi\u00e7\u00f5es inegavelmente apropriadas. Podemos j\u00e1 vislumbrar o modo pelo qual a ado\u00e7\u00e3o de pol\u00edticas descentralizadoras causa impacto indireto na reavalia\u00e7\u00e3o das posturas dos \u00f3rg\u00e3os dirigentes com rela\u00e7\u00e3o \u00e0s suas atribui\u00e7\u00f5es. Nunca \u00e9 demais lembrar o peso e o significado destes problemas, uma vez que a percep\u00e7\u00e3o das dificuldades promove a alavancagem do retorno esperado a longo prazo.\r\n\r\n          Pensando mais a longo prazo, o julgamento imparcial das eventualidades apresenta tend\u00eancias no sentido de aprovar a manuten\u00e7\u00e3o das condi\u00e7\u00f5es financeiras e administrativas exigidas. Caros amigos, a estrutura atual da organiza\u00e7\u00e3o representa uma abertura para a melhoria dos \u00edndices pretendidos. As experi\u00eancias acumuladas demonstram que a consolida\u00e7\u00e3o das estruturas agrega valor ao estabelecimento das diretrizes de desenvolvimento para o futuro. O que temos que ter sempre em mente \u00e9 que o novo modelo estrutural aqui preconizado auxilia a prepara\u00e7\u00e3o e a composi\u00e7\u00e3o da gest\u00e3o inovadora da qual fazemos parte.\r\n\r\n          A pr\u00e1tica cotidiana prova que o fen\u00f4meno da Internet prepara-nos para enfrentar situa\u00e7\u00f5es at\u00edpicas decorrentes dos procedimentos normalmente adotados. A n\u00edvel organizacional, o in\u00edcio da atividade geral de forma\u00e7\u00e3o de atitudes pode nos levar a considerar a reestrutura\u00e7\u00e3o das novas proposi\u00e7\u00f5es. O cuidado em identificar pontos cr\u00edticos na expans\u00e3o dos mercados mundiais ainda n\u00e3o demonstrou convincentemente que vai participar na mudan\u00e7a dos paradigmas corporativos. Evidentemente, a constante divulga\u00e7\u00e3o das informa\u00e7\u00f5es assume importantes posi\u00e7\u00f5es no estabelecimento das formas de a\u00e7\u00e3o.\r\n\r\n          N\u00e3o obstante, a execu\u00e7\u00e3o dos pontos do programa facilita a cria\u00e7\u00e3o do impacto na agilidade decis\u00f3ria. A certifica\u00e7\u00e3o de metodologias que nos auxiliam a lidar com a hegemonia do ambiente pol\u00edtico acarreta um processo de reformula\u00e7\u00e3o e moderniza\u00e7\u00e3o de alternativas \u00e0s solu\u00e7\u00f5es ortodoxas. Por outro lado, a revolu\u00e7\u00e3o dos costumes cumpre um papel essencial na formula\u00e7\u00e3o das dire\u00e7\u00f5es preferenciais no sentido do progresso. Acima de tudo, \u00e9 fundamental ressaltar que a crescente influ\u00eancia da m\u00eddia garante a contribui\u00e7\u00e3o de um grupo importante na determina\u00e7\u00e3o dos relacionamentos verticais entre as hierarquias. \u00c9 importante questionar o quanto a cont\u00ednua expans\u00e3o de nossa atividade afeta positivamente a correta previs\u00e3o do remanejamento dos quadros funcionais.\r\n\r\n          Ainda assim, existem d\u00favidas a respeito de como a valoriza\u00e7\u00e3o de fatores subjetivos aponta para a melhoria dos n\u00edveis de motiva\u00e7\u00e3o departamental. Gostaria de enfatizar que o desenvolvimento cont\u00ednuo de distintas formas de atua\u00e7\u00e3o possibilita uma melhor vis\u00e3o global das regras de conduta normativas. Desta maneira, a necessidade de renova\u00e7\u00e3o processual oferece uma interessante oportunidade para verifica\u00e7\u00e3o do sistema de forma\u00e7\u00e3o de quadros que corresponde \u00e0s necessidades. Neste sentido, a mobilidade dos capitais internacionais maximiza as possibilidades por conta dos modos de opera\u00e7\u00e3o convencionais. Percebemos, cada vez mais, que o comprometimento entre as equipes estimula a padroniza\u00e7\u00e3o dos m\u00e9todos utilizados na avalia\u00e7\u00e3o de resultados.\r\n\r\n          \u00c9 claro que a complexidade dos estudos efetuados obstaculiza a aprecia\u00e7\u00e3o da import\u00e2ncia de todos os recursos funcionais envolvidos. Todavia, o entendimento das metas propostas \u00e9 uma das consequ\u00eancias do investimento em reciclagem t\u00e9cnica. Assim mesmo, o novo modelo estrutural aqui preconizado exige a precis\u00e3o e a defini\u00e7\u00e3o do levantamento das vari\u00e1veis envolvidas.\r\n\r\n          Desta maneira, o aumento do di\u00e1logo entre os diferentes setores produtivos garante a contribui\u00e7\u00e3o de um grupo importante na determina\u00e7\u00e3o das condi\u00e7\u00f5es inegavelmente apropriadas. A certifica\u00e7\u00e3o de metodologias que nos auxiliam a lidar com o desenvolvimento cont\u00ednuo de distintas formas de atua\u00e7\u00e3o talvez venha a ressaltar a relatividade do processo de comunica\u00e7\u00e3o como um todo. Do mesmo modo, a execu\u00e7\u00e3o dos pontos do programa cumpre um papel essencial na formula\u00e7\u00e3o do retorno esperado a longo prazo. No mundo atual, a consulta aos diversos militantes n\u00e3o pode mais se dissociar do sistema de forma\u00e7\u00e3o de quadros que corresponde \u00e0s necessidades.\r\n\r\n          \u00c9 claro que a competitividade nas transa\u00e7\u00f5es comerciais desafia a capacidade de equaliza\u00e7\u00e3o das diversas correntes de pensamento. As experi\u00eancias acumuladas demonstram que a hegemonia do ambiente pol\u00edtico oferece uma interessante oportunidade para verifica\u00e7\u00e3o do investimento em reciclagem t\u00e9cnica. Gostaria de enfatizar que a consolida\u00e7\u00e3o das estruturas estimula a padroniza\u00e7\u00e3o das posturas dos \u00f3rg\u00e3os dirigentes com rela\u00e7\u00e3o \u00e0s suas atribui\u00e7\u00f5es. O incentivo ao avan\u00e7o tecnol\u00f3gico, assim como o comprometimento entre as equipes assume importantes posi\u00e7\u00f5es no estabelecimento do fluxo de informa\u00e7\u00f5es.\r\n\r\n          Nunca \u00e9 demais lembrar o peso e o significado destes problemas, uma vez que a percep\u00e7\u00e3o das dificuldades causa impacto indireto na reavalia\u00e7\u00e3o do impacto na agilidade decis\u00f3ria. Todavia, o consenso sobre a necessidade de qualifica\u00e7\u00e3o promove a alavancagem das condi\u00e7\u00f5es financeiras e administrativas exigidas. Podemos j\u00e1 vislumbrar o modo pelo qual o in\u00edcio da atividade geral de forma\u00e7\u00e3o de atitudes representa uma abertura para a melhoria das formas de a\u00e7\u00e3o. Todas estas quest\u00f5es, devidamente ponderadas, levantam d\u00favidas sobre se o surgimento do com\u00e9rcio virtual apresenta tend\u00eancias no sentido de aprovar a manuten\u00e7\u00e3o do remanejamento dos quadros funcionais.\r\n\r\n          Por outro lado, a crescente influ\u00eancia da m\u00eddia \u00e9 uma das consequ\u00eancias da gest\u00e3o inovadora da qual fazemos parte. Caros amigos, a estrutura atual da organiza\u00e7\u00e3o faz parte de um processo de gerenciamento dos procedimentos normalmente adotados. Por conseguinte, o acompanhamento das prefer\u00eancias de consumo pode nos levar a considerar a reestrutura\u00e7\u00e3o das novas proposi\u00e7\u00f5es. O cuidado em identificar pontos cr\u00edticos no julgamento imparcial das eventualidades agrega valor ao estabelecimento dos paradigmas corporativos.\r\n\r\n          Evidentemente, a expans\u00e3o dos mercados mundiais ainda n\u00e3o demonstrou convincentemente que vai participar na mudan\u00e7a dos conhecimentos estrat\u00e9gicos para atingir a excel\u00eancia. N\u00e3o obstante, o fen\u00f4meno da Internet prepara-nos para enfrentar situa\u00e7\u00f5es at\u00edpicas decorrentes das diretrizes de desenvolvimento para o futuro. Percebemos, cada vez mais, que a mobilidade dos capitais internacionais afeta positivamente a correta previs\u00e3o dos \u00edndices pretendidos.",
+          "author_in_quote":null,
+          "image_thumb":"lerolero_2dz7Zre.jpg",
+          "author":1,
+          "imagelist":[
+             3
+          ],
+          "categorys":[
+             1
+          ]
+       }
+    },
+    {
+       "model":"my_blog.post",
+       "pk":5,
+       "fields":{
+          "type_of_post":"simplePost",
+          "title":"Lutando  contra as inderefen\u00e7as",
+          "date_of_publication":"2020-04-22T21:58:19.859Z",
+          "modified_in":"2020-04-22T23:12:19.583Z",
+          "label":"lutando-contra-as-inderefencas",
+          "summary_post":"O empenho em analisar a execu\u00e7\u00e3o dos pontos do programa talvez venha a ressaltar a relatividade dos m\u00e9todos utilizados na avalia\u00e7\u00e3o de resultados. \u00c9 claro que a valoriza\u00e7\u00e3o de fatores subjetivos cumpre um papel essencial na formula\u00e7\u00e3o dos modos de opera\u00e7\u00e3o convencionais. Assim mesmo, a expans\u00e3o dos mercados mundiais promove a alavancagem das condi\u00e7\u00f5es financeiras e administrativas exigidas.",
+          "text_html":"Lutando contra as inderefen\u00e7as\r\n\r\n          O empenho em analisar a execu\u00e7\u00e3o dos pontos do programa talvez venha a ressaltar a relatividade dos m\u00e9todos utilizados na avalia\u00e7\u00e3o de resultados. \u00c9 claro que a valoriza\u00e7\u00e3o de fatores subjetivos cumpre um papel essencial na formula\u00e7\u00e3o dos modos de opera\u00e7\u00e3o convencionais. Assim mesmo, a expans\u00e3o dos mercados mundiais promove a alavancagem das condi\u00e7\u00f5es financeiras e administrativas exigidas.\r\n\r\n          Nunca \u00e9 demais lembrar o peso e o significado destes problemas, uma vez que o novo modelo estrutural aqui preconizado prepara-nos para enfrentar situa\u00e7\u00f5es at\u00edpicas decorrentes dos paradigmas corporativos. No entanto, n\u00e3o podemos esquecer que a revolu\u00e7\u00e3o dos costumes garante a contribui\u00e7\u00e3o de um grupo importante na determina\u00e7\u00e3o das novas proposi\u00e7\u00f5es. Caros amigos, a mobilidade dos capitais internacionais maximiza as possibilidades por conta das posturas dos \u00f3rg\u00e3os dirigentes com rela\u00e7\u00e3o \u00e0s suas atribui\u00e7\u00f5es. O que temos que ter sempre em mente \u00e9 que a complexidade dos estudos efetuados facilita a cria\u00e7\u00e3o das dire\u00e7\u00f5es preferenciais no sentido do progresso.\r\n\r\n          A pr\u00e1tica cotidiana prova que a consolida\u00e7\u00e3o das estruturas auxilia a prepara\u00e7\u00e3o e a composi\u00e7\u00e3o do sistema de participa\u00e7\u00e3o geral. Do mesmo modo, a crescente influ\u00eancia da m\u00eddia nos obriga \u00e0 an\u00e1lise dos \u00edndices pretendidos. Acima de tudo, \u00e9 fundamental ressaltar que o in\u00edcio da atividade geral de forma\u00e7\u00e3o de atitudes n\u00e3o pode mais se dissociar das formas de a\u00e7\u00e3o. N\u00e3o obstante, o aumento do di\u00e1logo entre os diferentes setores produtivos afeta positivamente a correta previs\u00e3o de todos os recursos funcionais envolvidos. Todas estas quest\u00f5es, devidamente ponderadas, levantam d\u00favidas sobre se o consenso sobre a necessidade de qualifica\u00e7\u00e3o representa uma abertura para a melhoria das condi\u00e7\u00f5es inegavelmente apropriadas.\r\n\r\n          Pensando mais a longo prazo, o fen\u00f4meno da Internet ainda n\u00e3o demonstrou convincentemente que vai participar na mudan\u00e7a dos relacionamentos verticais entre as hierarquias. Percebemos, cada vez mais, que a percep\u00e7\u00e3o das dificuldades obstaculiza a aprecia\u00e7\u00e3o da import\u00e2ncia do processo de comunica\u00e7\u00e3o como um todo. Desta maneira, a estrutura atual da organiza\u00e7\u00e3o assume importantes posi\u00e7\u00f5es no estabelecimento do levantamento das vari\u00e1veis envolvidas.\r\n\r\n          Por outro lado, a necessidade de renova\u00e7\u00e3o processual acarreta um processo de reformula\u00e7\u00e3o e moderniza\u00e7\u00e3o das diretrizes de desenvolvimento para o futuro. Todavia, a consulta aos diversos militantes estende o alcance e a import\u00e2ncia do fluxo de informa\u00e7\u00f5es. O cuidado em identificar pontos cr\u00edticos na cont\u00ednua expans\u00e3o de nossa atividade exige a precis\u00e3o e a defini\u00e7\u00e3o do investimento em reciclagem t\u00e9cnica.\r\n\r\n          Ainda assim, existem d\u00favidas a respeito de como a competitividade nas transa\u00e7\u00f5es comerciais estimula a padroniza\u00e7\u00e3o de alternativas \u00e0s solu\u00e7\u00f5es ortodoxas. O incentivo ao avan\u00e7o tecnol\u00f3gico, assim como o surgimento do com\u00e9rcio virtual apresenta tend\u00eancias no sentido de aprovar a manuten\u00e7\u00e3o das regras de conduta normativas. Neste sentido, a ado\u00e7\u00e3o de pol\u00edticas descentralizadoras \u00e9 uma das consequ\u00eancias dos conhecimentos estrat\u00e9gicos para atingir a excel\u00eancia. A certifica\u00e7\u00e3o de metodologias que nos auxiliam a lidar com o acompanhamento das prefer\u00eancias de consumo desafia a capacidade de equaliza\u00e7\u00e3o dos procedimentos normalmente adotados.\r\n\r\n          No mundo atual, o comprometimento entre as equipes agrega valor ao estabelecimento do remanejamento dos quadros funcionais. \u00c9 importante questionar o quanto a determina\u00e7\u00e3o clara de objetivos aponta para a melhoria do impacto na agilidade decis\u00f3ria. Por conseguinte, o desenvolvimento cont\u00ednuo de distintas formas de atua\u00e7\u00e3o possibilita uma melhor vis\u00e3o global do retorno esperado a longo prazo.\r\n\r\n          Gostaria de enfatizar que a constante divulga\u00e7\u00e3o das informa\u00e7\u00f5es causa impacto indireto na reavalia\u00e7\u00e3o do or\u00e7amento setorial. As experi\u00eancias acumuladas demonstram que o desafiador cen\u00e1rio globalizado pode nos levar a considerar a reestrutura\u00e7\u00e3o da gest\u00e3o inovadora da qual fazemos parte. Podemos j\u00e1 vislumbrar o modo pelo qual o entendimento das metas propostas faz parte de um processo de gerenciamento das diversas correntes de pensamento. A n\u00edvel organizacional, a hegemonia do ambiente pol\u00edtico deve passar por modifica\u00e7\u00f5es independentemente dos n\u00edveis de motiva\u00e7\u00e3o departamental.\r\n\r\n          Evidentemente, o julgamento imparcial das eventualidades oferece uma interessante oportunidade para verifica\u00e7\u00e3o do sistema de forma\u00e7\u00e3o de quadros que corresponde \u00e0s necessidades. \u00c9 claro que o novo modelo estrutural aqui preconizado apresenta tend\u00eancias no sentido de aprovar a manuten\u00e7\u00e3o dos n\u00edveis de motiva\u00e7\u00e3o departamental. Por conseguinte, a valoriza\u00e7\u00e3o de fatores subjetivos \u00e9 uma das consequ\u00eancias do fluxo de informa\u00e7\u00f5es. Neste sentido, o entendimento das metas propostas promove a alavancagem de todos os recursos funcionais envolvidos.\r\n\r\n          Gostaria de enfatizar que a competitividade nas transa\u00e7\u00f5es comerciais possibilita uma melhor vis\u00e3o global dos paradigmas corporativos. No entanto, n\u00e3o podemos esquecer que a revolu\u00e7\u00e3o dos costumes ainda n\u00e3o demonstrou convincentemente que vai participar na mudan\u00e7a dos conhecimentos estrat\u00e9gicos para atingir a excel\u00eancia. Caros amigos, a cont\u00ednua expans\u00e3o de nossa atividade cumpre um papel essencial na formula\u00e7\u00e3o do remanejamento dos quadros funcionais.\r\n\r\n          O cuidado em identificar pontos cr\u00edticos na complexidade dos estudos efetuados facilita a cria\u00e7\u00e3o do or\u00e7amento setorial. No mundo atual, o desafiador cen\u00e1rio globalizado auxilia a prepara\u00e7\u00e3o e a composi\u00e7\u00e3o das regras de conduta normativas. Do mesmo modo, o comprometimento entre as equipes nos obriga \u00e0 an\u00e1lise dos \u00edndices pretendidos.\r\n\r\n          Acima de tudo, \u00e9 fundamental ressaltar que o in\u00edcio da atividade geral de forma\u00e7\u00e3o de atitudes n\u00e3o pode mais se dissociar das condi\u00e7\u00f5es financeiras e administrativas exigidas. O incentivo ao avan\u00e7o tecnol\u00f3gico, assim como a determina\u00e7\u00e3o clara de objetivos garante a contribui\u00e7\u00e3o de um grupo importante na determina\u00e7\u00e3o do retorno esperado a longo prazo. Todas estas quest\u00f5es, devidamente ponderadas, levantam d\u00favidas sobre se o consenso sobre a necessidade de qualifica\u00e7\u00e3o estende o alcance e a import\u00e2ncia da gest\u00e3o inovadora da qual fazemos parte.\r\n\r\n          A certifica\u00e7\u00e3o de metodologias que nos auxiliam a lidar com a hegemonia do ambiente pol\u00edtico afeta positivamente a correta previs\u00e3o dos relacionamentos verticais entre as hierarquias. Percebemos, cada vez mais, que a consulta aos diversos militantes deve passar por modifica\u00e7\u00f5es independentemente do processo de comunica\u00e7\u00e3o como um todo. Desta maneira, a estrutura atual da organiza\u00e7\u00e3o estimula a padroniza\u00e7\u00e3o das posturas dos \u00f3rg\u00e3os dirigentes com rela\u00e7\u00e3o \u00e0s suas atribui\u00e7\u00f5es. Assim mesmo, a ado\u00e7\u00e3o de pol\u00edticas descentralizadoras aponta para a melhoria das diretrizes de desenvolvimento para o futuro.\r\n\r\n          A n\u00edvel organizacional, a percep\u00e7\u00e3o das dificuldades representa uma abertura para a melhoria dos modos de opera\u00e7\u00e3o convencionais. Evidentemente, o desenvolvimento cont\u00ednuo de distintas formas de atua\u00e7\u00e3o exige a precis\u00e3o e a defini\u00e7\u00e3o do impacto na agilidade decis\u00f3ria. Por outro lado, a execu\u00e7\u00e3o dos pontos do programa assume importantes posi\u00e7\u00f5es no estabelecimento de alternativas \u00e0s solu\u00e7\u00f5es ortodoxas. Nunca \u00e9 demais lembrar o peso e o significado destes problemas, uma vez que a necessidade de renova\u00e7\u00e3o processual faz parte de um processo de gerenciamento das condi\u00e7\u00f5es inegavelmente apropriadas.",
+          "author_in_quote":null,
+          "image_thumb":"400.png",
+          "author":1,
+          "imagelist":[
+             3
+          ],
+          "categorys":[
+             1
+          ]
+       }
+    },
+    {
+       "model":"my_blog.post",
+       "pk":7,
+       "fields":{
+          "type_of_post":"simplePost",
+          "title":"There is no one who loves pain itself,",
+          "date_of_publication":"2020-04-24T01:46:09.462Z",
+          "modified_in":"2020-04-24T01:46:09.462Z",
+          "label":"there-is-no-one-who-loves-pain-itself",
+          "summary_post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris ullamcorper, condimentum velit quis, volutpat turpis. Pellentesque facilisis est sed facilisis auctor. Cras hendrerit consectetur mauris et viverra. Duis blandit volutpat risus vitae posuere. Ut sagittis dolor a quam dictum vestibulum. Donec sed bibendum libero. In pulvinar, libero eget venenatis pharetra, felis erat venenatis lectus, sit amet venenatis purus purus sollicitudin metus. Nullam mauris odio, vulputate aliquet lorem in, commodo aliquam tellus.",
+          "text_html":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris ullamcorper, condimentum velit quis, volutpat turpis. Pellentesque facilisis est sed facilisis auctor. Cras hendrerit consectetur mauris et viverra. Duis blandit volutpat risus vitae posuere. Ut sagittis dolor a quam dictum vestibulum. Donec sed bibendum libero. In pulvinar, libero eget venenatis pharetra, felis erat venenatis lectus, sit amet venenatis purus purus sollicitudin metus. Nullam mauris odio, vulputate aliquet lorem in, commodo aliquam tellus.\r\n\r\nMauris vehicula nibh ut tortor semper, nec ornare lectus pulvinar. In id lorem nec tortor pharetra dapibus eu vitae dui. Integer non blandit neque. Pellentesque semper mauris sed pellentesque tempor. Quisque lorem velit, finibus a dignissim ut, accumsan quis ligula. Phasellus porttitor lobortis est et posuere. Morbi sit amet enim pharetra libero posuere finibus tincidunt eget diam. Sed eu ante massa. Etiam facilisis interdum congue. Integer vestibulum, leo in laoreet sollicitudin, nibh tortor faucibus nisi, at tempor ligula est sit amet ipsum. Aenean ac leo non risus hendrerit cursus id at diam.\r\n\r\nMauris vehicula mattis eros in lacinia. Integer sollicitudin, lacus non finibus bibendum, nisi turpis sollicitudin purus, a pretium mauris ligula vitae elit. Suspendisse fringilla dolor et mattis pellentesque. Integer vel tristique erat, ut placerat est. Nulla sit amet urna felis. Integer imperdiet enim sit amet eros viverra, in dignissim augue sagittis. Cras condimentum eros lectus, at lobortis mauris sollicitudin et. Nam fringilla velit id convallis ultrices.\r\n\r\nNulla facilisi. In sapien est, vehicula non tellus varius, tempor dapibus ligula. Vivamus varius vehicula interdum. Suspendisse potenti. Pellentesque ultrices malesuada feugiat. Praesent suscipit maximus eros eu rutrum. Pellentesque eleifend vehicula placerat. Nunc malesuada ac leo sed eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ullamcorper nisi nunc, non pulvinar arcu venenatis euismod. Fusce hendrerit massa eu molestie vehicula. Nunc varius, tortor elementum viverra egestas, justo lectus cursus eros, quis rutrum metus leo commodo massa. Praesent non lorem a tellus placerat vehicula vitae et ex.\r\n\r\nProin sodales vehicula dolor sit amet volutpat. Mauris ac volutpat ipsum. Pellentesque auctor lectus in metus lobortis maximus. Nullam eget laoreet neque, id consectetur lorem. Nulla hendrerit quam at enim posuere volutpat. Etiam pretium nunc arcu, ac malesuada tellus porta sed. Ut vehicula sem lectus, et fermentum odio maximus vitae. Duis fringilla, nibh at vestibulum pharetra, arcu arcu efficitur nulla, commodo luctus nisl est pharetra arcu. Aliquam finibus faucibus orci vitae consectetur. Quisque tincidunt volutpat nibh, et maximus magna dapibus vitae.",
+          "author_in_quote":null,
+          "image_thumb":"400_VUif7nb.png",
+          "author":1,
+          "imagelist":[
+             3
+          ],
+          "categorys":[
+             1
+          ]
+       }
+    },
+    {
+       "model":"my_blog.post",
+       "pk":8,
+       "fields":{
+          "type_of_post":"simplePost",
+          "title":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,",
+          "date_of_publication":"2020-04-24T01:47:07.380Z",
+          "modified_in":"2020-04-24T01:47:07.380Z",
+          "label":"neque-porro-quisquam-est-qui-dolorem-ipsum-quia-dolor-sit-amet",
+          "summary_post":"Pellentesque laoreet iaculis dui, sed rutrum orci aliquam vitae. Etiam vel augue pretium, faucibus nisi non, tristique ipsum. Mauris justo enim, vestibulum non tellus ut, malesuada molestie ligula. Nam rhoncus, sapien at posuere consequat, purus augue blandit tortor, eu maximus nunc turpis vel odio. Nunc luctus, felis ac maximus tristique, justo ipsum faucibus eros, at varius nisi lorem sit amet felis. Donec semper vitae augue at gravida. Praesent quis feugiat nisl, id faucibus nibh. Nullam quam nisi, rhoncus eget lacus a, viverra cursus massa. Sed mi felis, posuere quis lorem ac, commodo accumsan lorem. Phasellus odio ligula, euismod eget tortor in, porta varius nibh. Sed facilisis faucibus lectus, fringilla rhoncus nunc facilisis in. Aenean faucibus, diam in porta consequat, nulla libero convallis augue, sit amet finibus tortor libero quis lectus. Nunc aliquet fringilla fermentum. Nam scelerisque ac metus et semper. Mauris venenatis nibh quis ante luctus consequat. Vestibulum eget nisl molestie erat euismod scelerisque.",
+          "text_html":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non quam finibus, sodales libero a, tempus purus. Morbi porta eget neque vitae venenatis. Vivamus commodo viverra turpis, sed elementum arcu placerat nec. Fusce dignissim orci ante, vel posuere purus congue quis. Morbi gravida lacinia posuere. Quisque fringilla ex ex, quis accumsan sem eleifend nec. Duis vehicula odio dui, consectetur ornare sem posuere vel. Ut fringilla erat a lorem suscipit efficitur. Fusce malesuada nulla elit, nec posuere mauris vulputate sed. Praesent fermentum varius auctor. Nam pharetra magna diam. Nullam fringilla finibus purus, et efficitur nisl scelerisque sed.\r\n\r\nPellentesque laoreet iaculis dui, sed rutrum orci aliquam vitae. Etiam vel augue pretium, faucibus nisi non, tristique ipsum. Mauris justo enim, vestibulum non tellus ut, malesuada molestie ligula. Nam rhoncus, sapien at posuere consequat, purus augue blandit tortor, eu maximus nunc turpis vel odio. Nunc luctus, felis ac maximus tristique, justo ipsum faucibus eros, at varius nisi lorem sit amet felis. Donec semper vitae augue at gravida. Praesent quis feugiat nisl, id faucibus nibh. Nullam quam nisi, rhoncus eget lacus a, viverra cursus massa. Sed mi felis, posuere quis lorem ac, commodo accumsan lorem. Phasellus odio ligula, euismod eget tortor in, porta varius nibh. Sed facilisis faucibus lectus, fringilla rhoncus nunc facilisis in. Aenean faucibus, diam in porta consequat, nulla libero convallis augue, sit amet finibus tortor libero quis lectus. Nunc aliquet fringilla fermentum. Nam scelerisque ac metus et semper. Mauris venenatis nibh quis ante luctus consequat. Vestibulum eget nisl molestie erat euismod scelerisque.\r\n\r\nPellentesque et ex sollicitudin, vehicula erat eu, laoreet sapien. Nulla aliquet sagittis tellus vitae maximus. Quisque fringilla dolor urna, a cursus nisl blandit vel. Suspendisse auctor quam nec turpis condimentum, vel laoreet magna sodales. Sed consectetur urna a elit lacinia, sed ullamcorper ligula hendrerit. Donec nec lorem ac ante suscipit imperdiet. Maecenas id feugiat leo. Curabitur in elementum augue, vel sagittis nunc.\r\n\r\nVestibulum vestibulum nisl sit amet enim faucibus feugiat. Maecenas quis neque a justo tempor mattis. Nam dictum sem sapien, non posuere enim egestas non. Vestibulum mattis et odio et iaculis. Morbi vel urna accumsan, faucibus turpis eu, dictum libero. Suspendisse scelerisque condimentum turpis, nec maximus mi commodo sed. Nullam sit amet rutrum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce ut urna augue. Nam non felis non ipsum euismod dignissim ac sed elit. Vestibulum ultricies luctus rhoncus. Vestibulum magna erat, congue eu lacinia pharetra, molestie eget ante. Maecenas finibus felis ac nisi semper, in elementum sem rhoncus. Morbi blandit sodales lobortis.\r\n\r\nMorbi neque urna, fermentum luctus mattis lobortis, porttitor at turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean imperdiet sem nec lacus sagittis pulvinar. Duis in malesuada magna. Fusce nulla diam, elementum et arcu a, consectetur varius odio. Suspendisse cursus aliquet orci, ut porta ligula vulputate quis. Maecenas vehicula, dolor vitae porttitor sollicitudin, risus nulla aliquet ante, eget cursus arcu turpis sit amet justo. Aenean est mi, sodales nec velit ut, rutrum scelerisque enim. Duis faucibus ex euismod orci viverra, eu feugiat felis luctus. Nam nec felis sed elit lobortis rhoncus. Cras fringilla tempor lacus, a consequat est finibus id. Sed commodo dapibus mauris. Donec a ultricies quam. Proin molestie eleifend gravida. Maecenas iaculis eros maximus ex consectetur, quis bibendum turpis condimentum. Ut vulputate purus in diam fringilla faucibus.",
+          "author_in_quote":null,
+          "image_thumb":"400_12CUO5u.png",
+          "author":1,
+          "imagelist":[
+             3
+          ],
+          "categorys":[
+             1
+          ]
+       }
+    },
+    {
+       "model":"my_blog.postquote",
+       "pk":1,
+       "fields":{
+          "type_of_post":"postQuote",
+          "quote":"Se eu vi mais longe, foi por estar sobre ombros de gigantes.",
+          "quote_author":"Isaac Newton"
+       }
+    },
+    {
+       "model":"my_blog.postquote",
+       "pk":2,
+       "fields":{
+          "type_of_post":"postQuote",
+          "quote":"Deve-se aprender sempre, at\u00e9 mesmo com um inimigo.",
+          "quote_author":"Isaac Newton"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":1,
+       "fields":{
+          "name":"Can add log entry",
+          "content_type":1,
+          "codename":"add_logentry"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":2,
+       "fields":{
+          "name":"Can change log entry",
+          "content_type":1,
+          "codename":"change_logentry"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":3,
+       "fields":{
+          "name":"Can delete log entry",
+          "content_type":1,
+          "codename":"delete_logentry"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":4,
+       "fields":{
+          "name":"Can view log entry",
+          "content_type":1,
+          "codename":"view_logentry"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":5,
+       "fields":{
+          "name":"Can add permission",
+          "content_type":2,
+          "codename":"add_permission"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":6,
+       "fields":{
+          "name":"Can change permission",
+          "content_type":2,
+          "codename":"change_permission"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":7,
+       "fields":{
+          "name":"Can delete permission",
+          "content_type":2,
+          "codename":"delete_permission"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":8,
+       "fields":{
+          "name":"Can view permission",
+          "content_type":2,
+          "codename":"view_permission"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":9,
+       "fields":{
+          "name":"Can add group",
+          "content_type":3,
+          "codename":"add_group"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":10,
+       "fields":{
+          "name":"Can change group",
+          "content_type":3,
+          "codename":"change_group"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":11,
+       "fields":{
+          "name":"Can delete group",
+          "content_type":3,
+          "codename":"delete_group"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":12,
+       "fields":{
+          "name":"Can view group",
+          "content_type":3,
+          "codename":"view_group"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":13,
+       "fields":{
+          "name":"Can add user",
+          "content_type":4,
+          "codename":"add_user"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":14,
+       "fields":{
+          "name":"Can change user",
+          "content_type":4,
+          "codename":"change_user"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":15,
+       "fields":{
+          "name":"Can delete user",
+          "content_type":4,
+          "codename":"delete_user"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":16,
+       "fields":{
+          "name":"Can view user",
+          "content_type":4,
+          "codename":"view_user"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":17,
+       "fields":{
+          "name":"Can add content type",
+          "content_type":5,
+          "codename":"add_contenttype"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":18,
+       "fields":{
+          "name":"Can change content type",
+          "content_type":5,
+          "codename":"change_contenttype"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":19,
+       "fields":{
+          "name":"Can delete content type",
+          "content_type":5,
+          "codename":"delete_contenttype"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":20,
+       "fields":{
+          "name":"Can view content type",
+          "content_type":5,
+          "codename":"view_contenttype"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":21,
+       "fields":{
+          "name":"Can add session",
+          "content_type":6,
+          "codename":"add_session"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":22,
+       "fields":{
+          "name":"Can change session",
+          "content_type":6,
+          "codename":"change_session"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":23,
+       "fields":{
+          "name":"Can delete session",
+          "content_type":6,
+          "codename":"delete_session"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":24,
+       "fields":{
+          "name":"Can view session",
+          "content_type":6,
+          "codename":"view_session"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":25,
+       "fields":{
+          "name":"Can add imagens_for_post",
+          "content_type":7,
+          "codename":"add_imagens_for_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":26,
+       "fields":{
+          "name":"Can change imagens_for_post",
+          "content_type":7,
+          "codename":"change_imagens_for_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":27,
+       "fields":{
+          "name":"Can delete imagens_for_post",
+          "content_type":7,
+          "codename":"delete_imagens_for_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":28,
+       "fields":{
+          "name":"Can view imagens_for_post",
+          "content_type":7,
+          "codename":"view_imagens_for_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":29,
+       "fields":{
+          "name":"Can add post",
+          "content_type":8,
+          "codename":"add_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":30,
+       "fields":{
+          "name":"Can change post",
+          "content_type":8,
+          "codename":"change_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":31,
+       "fields":{
+          "name":"Can delete post",
+          "content_type":8,
+          "codename":"delete_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":32,
+       "fields":{
+          "name":"Can view post",
+          "content_type":8,
+          "codename":"view_post"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":33,
+       "fields":{
+          "name":"Can add author",
+          "content_type":9,
+          "codename":"add_author"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":34,
+       "fields":{
+          "name":"Can change author",
+          "content_type":9,
+          "codename":"change_author"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":35,
+       "fields":{
+          "name":"Can delete author",
+          "content_type":9,
+          "codename":"delete_author"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":36,
+       "fields":{
+          "name":"Can view author",
+          "content_type":9,
+          "codename":"view_author"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":37,
+       "fields":{
+          "name":"Can add category",
+          "content_type":10,
+          "codename":"add_category"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":38,
+       "fields":{
+          "name":"Can change category",
+          "content_type":10,
+          "codename":"change_category"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":39,
+       "fields":{
+          "name":"Can delete category",
+          "content_type":10,
+          "codename":"delete_category"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":40,
+       "fields":{
+          "name":"Can view category",
+          "content_type":10,
+          "codename":"view_category"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":41,
+       "fields":{
+          "name":"Can add post quote",
+          "content_type":11,
+          "codename":"add_postquote"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":42,
+       "fields":{
+          "name":"Can change post quote",
+          "content_type":11,
+          "codename":"change_postquote"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":43,
+       "fields":{
+          "name":"Can delete post quote",
+          "content_type":11,
+          "codename":"delete_postquote"
+       }
+    },
+    {
+       "model":"auth.permission",
+       "pk":44,
+       "fields":{
+          "name":"Can view post quote",
+          "content_type":11,
+          "codename":"view_postquote"
+       }
+    },
+    {
+       "model":"auth.user",
+       "pk":1,
+       "fields":{
+          "password":"pbkdf2_sha256$180000$SKzYa6RhdFW9$NOunFn6gU9w4DddQJub+h709ak3ucByNbIVNDOSlCWQ=",
+          "last_login":"2020-04-21T23:46:37.917Z",
+          "is_superuser":true,
+          "username":"lucas",
+          "first_name":"",
+          "last_name":"",
+          "email":"",
+          "is_staff":true,
+          "is_active":true,
+          "date_joined":"2020-04-21T23:46:14.399Z",
+          "groups":[
+ 
+          ],
+          "user_permissions":[
+ 
+          ]
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":1,
+       "fields":{
+          "action_time":"2020-04-21T23:53:44.955Z",
+          "user":1,
+          "content_type":9,
+          "object_id":"1",
+          "object_repr":"Lucas de Oliveira Santana",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":2,
+       "fields":{
+          "action_time":"2020-04-22T00:02:11.726Z",
+          "user":1,
+          "content_type":7,
+          "object_id":"1",
+          "object_repr":"imagen1",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":3,
+       "fields":{
+          "action_time":"2020-04-22T00:02:43.245Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"1",
+          "object_repr":"Exemplo de Post",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":4,
+       "fields":{
+          "action_time":"2020-04-22T00:14:18.942Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"1",
+          "object_repr":"Exemplo de Post",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":5,
+       "fields":{
+          "action_time":"2020-04-22T01:12:58.606Z",
+          "user":1,
+          "content_type":10,
+          "object_id":"1",
+          "object_repr":"Python",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":6,
+       "fields":{
+          "action_time":"2020-04-22T18:43:46.371Z",
+          "user":1,
+          "content_type":7,
+          "object_id":"1",
+          "object_repr":"imagen1",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":7,
+       "fields":{
+          "action_time":"2020-04-22T18:44:06.417Z",
+          "user":1,
+          "content_type":7,
+          "object_id":"2",
+          "object_repr":"testeimage",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":8,
+       "fields":{
+          "action_time":"2020-04-22T18:44:43.827Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"1",
+          "object_repr":"teste",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":9,
+       "fields":{
+          "action_time":"2020-04-22T18:52:31.018Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"1",
+          "object_repr":"teste",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":10,
+       "fields":{
+          "action_time":"2020-04-22T18:52:44.081Z",
+          "user":1,
+          "content_type":7,
+          "object_id":"2",
+          "object_repr":"testeimage",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":11,
+       "fields":{
+          "action_time":"2020-04-22T19:05:18.831Z",
+          "user":1,
+          "content_type":7,
+          "object_id":"3",
+          "object_repr":"1",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":12,
+       "fields":{
+          "action_time":"2020-04-22T19:14:06.375Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"2",
+          "object_repr":"Aliquam quis ullamcorper urna, eu auctor nibh",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":13,
+       "fields":{
+          "action_time":"2020-04-22T21:02:09.157Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"2",
+          "object_repr":"Aliquam quis ullamcorper urna, eu auctor nibh",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Imagem da Thumb\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":14,
+       "fields":{
+          "action_time":"2020-04-22T21:36:28.253Z",
+          "user":1,
+          "content_type":9,
+          "object_id":"1",
+          "object_repr":"Lucas de Oliveira Santana",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Imagem de Perfil\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":15,
+       "fields":{
+          "action_time":"2020-04-22T21:41:52.516Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"3",
+          "object_repr":"Gerador de LeroLero",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":16,
+       "fields":{
+          "action_time":"2020-04-22T21:55:35.914Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"2",
+          "object_repr":"Aliquam quis ullamcorper urna, eu auctor nibh",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":17,
+       "fields":{
+          "action_time":"2020-04-22T21:55:42.619Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"3",
+          "object_repr":"Gerador de LeroLero",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":18,
+       "fields":{
+          "action_time":"2020-04-22T21:56:26.834Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"4",
+          "object_repr":"Gerador de LeroLero",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":19,
+       "fields":{
+          "action_time":"2020-04-22T21:58:19.864Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"5",
+          "object_repr":"Lutando contra as inderefen\u00e7as",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":20,
+       "fields":{
+          "action_time":"2020-04-22T21:58:35.547Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"5",
+          "object_repr":"Lutando contra as inderefen\u00e7as",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Imagem da Thumb\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":21,
+       "fields":{
+          "action_time":"2020-04-22T22:36:57.860Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"5",
+          "object_repr":"Lutando contra as inderefen\u00e7as",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Url\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":22,
+       "fields":{
+          "action_time":"2020-04-22T22:37:10.349Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"4",
+          "object_repr":"Gerador de LeroLero",
+          "action_flag":2,
+          "change_message":"[]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":23,
+       "fields":{
+          "action_time":"2020-04-22T23:11:24.215Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"5",
+          "object_repr":"Lutando {{ lastestPost.title }} contra as inderefen\u00e7as",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":24,
+       "fields":{
+          "action_time":"2020-04-22T23:12:19.586Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"5",
+          "object_repr":"Lutando  contra as inderefen\u00e7as",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":25,
+       "fields":{
+          "action_time":"2020-04-24T00:55:18.293Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"6",
+          "object_repr":"rtewtete",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":26,
+       "fields":{
+          "action_time":"2020-04-24T01:03:50.370Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"6",
+          "object_repr":"rtewtete",
+          "action_flag":2,
+          "change_message":"[{\"changed\": {\"fields\": [\"Texto em Html\", \"Autor da cita\\u00e7\\u00e3o\"]}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":27,
+       "fields":{
+          "action_time":"2020-04-24T01:46:09.485Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"7",
+          "object_repr":"There is no one who loves pain itself,",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":28,
+       "fields":{
+          "action_time":"2020-04-24T01:47:07.398Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"8",
+          "object_repr":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":29,
+       "fields":{
+          "action_time":"2020-04-24T01:48:04.163Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"9",
+          "object_repr":"O que sabemos \u00e9 uma gota; o que ignoramos \u00e9 um oceano.",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":30,
+       "fields":{
+          "action_time":"2020-04-24T19:00:23.141Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"9",
+          "object_repr":"O que sabemos \u00e9 uma gota; o que ignoramos \u00e9 um oceano.",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":31,
+       "fields":{
+          "action_time":"2020-04-24T19:00:41.798Z",
+          "user":1,
+          "content_type":8,
+          "object_id":"6",
+          "object_repr":"rtewtete",
+          "action_flag":3,
+          "change_message":""
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":32,
+       "fields":{
+          "action_time":"2020-04-24T19:01:52.250Z",
+          "user":1,
+          "content_type":11,
+          "object_id":"1",
+          "object_repr":"Se eu vi mais longe, foi por e",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    },
+    {
+       "model":"admin.logentry",
+       "pk":33,
+       "fields":{
+          "action_time":"2020-04-24T19:05:27.076Z",
+          "user":1,
+          "content_type":11,
+          "object_id":"2",
+          "object_repr":"Deve-se aprender sempre, at\u00e9 m",
+          "action_flag":1,
+          "change_message":"[{\"added\": {}}]"
+       }
+    }
+ ]
